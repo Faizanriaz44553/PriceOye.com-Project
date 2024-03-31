@@ -1,0 +1,52 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+
+#offcanvasNavbar{
+    background-color: #48AFFF;
+}
+#search{
+    margin-top: 5px;
+    margin-left: 400px;
+}
+.searchinput {
+    padding: 20px 360px 20px 20px; /* Adjusted padding to leave space for placeholder */
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #141414;
+    background-image: url(./Voice-Mail--Streamline-Core.svg); /* Replace 'path_to_your_icon.png' with the path to your icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Position the icon to the right with 10px offset from the right edge */
+    background-size: 20px;
+    
+}
+.searchinput::placeholder {
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+#login{
+padding: 8px 35px 8px 35px;
+font-size:x-large;
+color: #48AFFF;
+border: none;
+border-radius: 5px;
+}
+#button-div{
+    display: inline;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 320px;
+}
+#register{
+    padding: 8px 25px 8px 25px;
+    font-size:x-large;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 11px;
+    }
