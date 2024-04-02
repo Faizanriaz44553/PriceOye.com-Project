@@ -50,3 +50,77 @@ border-radius: 5px;
     background-color: transparent;
     margin-left: 11px;
     }
+
+/* section 2 strated */
+.sec-2-main{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sec-2{
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+  
+      /* Media query for screens smaller than 576px */
+      @media (max-width: 576px) {
+        #search, #button-div {
+          display: none; /* Hide search and button div */
+        }
+        .media-none{
+            display: none;
+        }
+        .maindiv-inimage{
+            width: 200px;
+        }
+        .logo{
+            margin-left: 50px;
+        }
+        
+      }
+      
+      /* Media query for screens between 576px and 799px */
+      @media (min-width: 576px) and (max-width: 799px) {
+        #search{
+            margin-top: 5px;
+            margin-left: 150px;
+        }
+        .searchinput {
+            padding: 7px 30px 7px 7px; /* Adjusted padding to leave space for placeholder */
+            border: none;
+            border-radius: 10px;
+            outline: none;
+            color: #141414;
+            background-image: url(./Voice-Mail--Streamline-Core.svg); /* Replace 'path_to_your_icon.png' with the path to your icon */
+            background-repeat: no-repeat;
+            background-position: right 10px center; /* Position the icon to the right with 10px offset from the right edge */
+            background-size: 20px;
+            
+        }
+        #button-div {
+          display: none; /* Hide button div */
+        }
+        .media-none-2{
+            display: none;
+        }
+        .media-none{
+            display: none;
+        }
+      }
+      
+      /* Media query for screens between 800px and 1199px */
+      @media (min-width: 800px) and (max-width: 1199px) {
+        #search, #button-div {
+          display: none; /* Display search and button div */
+        }
+      }
+      
+      /* Media query for screens larger than or equal to 1200px */
+      @media (min-width: 1200px) {
+        #search, #button-div {
+          display: block; /* Display search and button div */
+        }
+      }
