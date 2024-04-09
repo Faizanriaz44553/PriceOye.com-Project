@@ -14,6 +14,12 @@
 .display-f{
     display: flex;
 }
+.display-b{
+    display: inline;
+}
+.display-n{
+    display: none;
+}
 .justify-c{
     justify-content: center;
 }
@@ -314,6 +320,9 @@
 /* text color started */
 .t-c-black{
     color: #000000;
+}
+.b-color-orange{
+background-color: #261C15;
 }
 
 /* text color ended*/
